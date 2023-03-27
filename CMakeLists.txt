@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.24)
+project(cpp_task_1)
+find_package(fmt)
+add_executable(cpp_task_1 main.cpp)
+target_link_libraries(cpp_task_1 fmt::fmt)
